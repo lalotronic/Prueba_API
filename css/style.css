@@ -1,0 +1,16 @@
+body { 
+    text-align: center; 
+    padding: 0px 40px;
+    padding-top: 10%;
+ } 
+
+ .grafica {
+    width: 100%;
+    max-width: 700px; /* Mismo ancho que el div del conversor de moneda */
+    margin: 2rem auto; /* Centrar horizontalmente y agregar margen vertical */
+  }
+  
+  #myChart {
+    width: 100% !important; /* Hacer que el canvas ocupe todo el ancho del div */
+    height: auto !important; /* Ajustar la altura automáticamente */
+  }
